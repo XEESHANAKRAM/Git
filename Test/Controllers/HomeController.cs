@@ -11,6 +11,7 @@ namespace Test.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            view.bag = "Hello World!";
             return View();
         }
     }
